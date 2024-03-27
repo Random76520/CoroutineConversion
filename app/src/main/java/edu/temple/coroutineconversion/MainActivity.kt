@@ -11,9 +11,7 @@ import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
 
-    //TODO (Refactor to replace Thread code with coroutines)
-
-    lateinit var cakeImageView: ImageView
+    private lateinit var cakeImageView: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
