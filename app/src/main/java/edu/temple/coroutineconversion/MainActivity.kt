@@ -16,11 +16,6 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var cakeImageView: ImageView
 
-    val handler = Handler(Looper.getMainLooper(), Handler.Callback {
-        cakeImageView.alpha = it.what / 100f
-        true
-    })
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
